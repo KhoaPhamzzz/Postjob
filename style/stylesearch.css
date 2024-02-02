@@ -1,0 +1,106 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 100px; /* Added padding-top to add space at the top */
+}
+
+h1 {
+  color: #007bff;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+#location {
+  width: 415px;
+}
+
+#returnhome {
+  width: 395px;
+}
+
+a:hover {
+  background-color: #0056b3;
+}
+/* Container styles */
+.container {
+  width: 400px;
+  margin: 0 auto;
+
+}
+
+
+/* Form styles */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin: 0 10px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+label {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  flex-grow: 0;
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+
+/* Link styles */
+#returnhome {
+  width: 395px;
+}
+
+a:hover {
+  background-color: #0056b3;
+}
+
+

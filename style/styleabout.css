@@ -1,0 +1,72 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 200px; /* Added padding-top to add space at the top */
+}
+
+h1 {
+  color: #007bff;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-bottom: 40px;
+}
+
+h2{
+  color: #007bff;
+}
+
+p {
+  color: black;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+#location {
+  width: 415px;
+}
+
+#returnhome {
+  width: 395px;
+}
+
+a:hover {
+  background-color: #0056b3;
+}
+/* Container styles */
+.container {
+  width: 800px;
+  margin: 0 auto;
+
+}
+
+
+/* Link styles */
+#returnhome {
+  width: 395px;
+}
+
+a:hover {
+  background-color: #0056b3;
+}
+
+
+.discussion-board-img {
+  max-width: 100%; /* Set maximum width to 100% */
+  height: auto; /* Automatically adjust height to maintain aspect ratio */
+}
